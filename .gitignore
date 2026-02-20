@@ -1,0 +1,11 @@
+# --- Pour WordPress ---
+# On ignore les dossiers lourds et inutiles
+wp-admin/
+wp-includes/
+node_modules/
+.DS_Store
+wp-content/ai1wm-backups/
+
+# ON GARDE les fichiers PHP de la racine (index.php, etc.)
+# MAIS on protège les accès BDD
+wp-config.php
